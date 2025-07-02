@@ -19,10 +19,13 @@ Login: catccwoman
 - Navigate to EPS CC [✔]
 - Third Party Billing Enrollments [✔]
 - Download Priority Mail 5x5 [✔]
+- CIAM auto sign out after sign out from EPS [✔]
+- CIAM auto sign in after sign in from BCG [✔]
 
  
 ---
-Potential defect:
+
+Potential defect: (Resolved. Expected.)
 
 1. login to existing user (ex. catccwoman / Cop@9075)
 2. Manage Locations --> Actions --> Add Mailer ID
