@@ -24,13 +24,14 @@ Login: catccwoman
 
  
 ---
-
+<!--
 Potential defect: (Resolved. Expected.)
 
 1. login to existing user (ex. catccwoman / Cop@9075)
-2. Manage Locations --> Actions --> Add Mailer ID
+2. Manage Locations -- > Actions -- > Add Mailer ID
 3. DO NOT touch "Associate new Mailer ID to a CRID"
 4. Only select EPA
 5. Check Returns Mailer ID (Ref to screenshot)![image](https://github.com/user-attachments/assets/3780ce97-58eb-4b79-a517-deab07d02642)
 6. Click "Request Mailer ID" button
 7. Result: Missing Company and Address. Even worst, cannot reproduce.![image](https://github.com/user-attachments/assets/118f72f5-434d-4c44-b3eb-245ac6562d5e)
+-->
