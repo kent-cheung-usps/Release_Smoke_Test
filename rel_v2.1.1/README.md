@@ -6,7 +6,7 @@ Relesae tests
 
 `Regression Test for existing user`
 
-Login: catccwoman (generic user)
+Login: catccwoman (generic user | Firefox Private Mode)
 - Add Mailer ID (MID)
   - OUTBOUND & RETURNS [✔]
   - OUTBOUNT ONLY [✔]
@@ -30,12 +30,34 @@ Login: catccwoman (generic user)
 
 `Onboarding New User`
 
-Login: catpeter03 (generic user)
+Login: catpeter03 (generic user | Incognito)
 - Registration process
-  - Address creation
-  - CRID creation
-  - Payment Account creation
-- Navigate to "SHIP Now"
+  - Address creation [✔]
+  - CRID creation [✔]
+  - Payment Account creation [✔]
+- Add Mailer ID (MID)
+  - OUTBOUND & RETURNS [✔]
+  - OUTBOUNT ONLY [✔]
+  - RETURNS ONLY [✔]
+- Add Locations
+  - OUTBOUND & RETURNS [✔]
+  - OUTBOUNT ONLY [✔]
+  - RETURNS ONLY [✔]
+- Navigate to "Ship Now" [✔]
+- Navigate to "Ship with APIs" [✔]
+- Navigate to EPS : "Manage Accounts" [✔]
+- Navigate to EPS CC [✔]
+- Navigate to "Priority Mail Next Day" Link [✔]
+- Download Priority Mail 5x5 [✔]
+- Third Party Billing Enrollments [✔]
+- CIAM auto sign out after sign out from EPS [✔]
+- Login to BCG (catpeter01) [✔]
+- Business location pull down box [✔]
+  <img src="https://github.com/user-attachments/assets/9122f907-a47f-4bec-a99d-ee7dae8c7968" alt="Alt Text" width="300" height="100">
+- BCG Profile Integrity [✔]
+- MID Integrity mid-cat.usps.com [✔]
+
+
 
 
  
