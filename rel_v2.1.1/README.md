@@ -4,7 +4,9 @@ Relesae tests
 
 [Build#: COP-(2.2.1-release-sit-env-2.2.1-e0b8810-12), Date: Jul 2, 2025]
 
-Login: catccwoman
+`Regression Test for existing user`
+
+Login: catccwoman (generic user)
 - Add Mailer ID (MID)
   - OUTBOUND & RETURNS [✔]
   - OUTBOUNT ONLY [✔]
@@ -21,6 +23,20 @@ Login: catccwoman
 - Download Priority Mail 5x5 [✔]
 - CIAM auto sign out after sign out from EPS [✔]
 - CIAM auto sign in after sign in from BCG [✔]
+
+2025-07-03
+
+[Build#: COP-(2.2.1-release-sit-env-2.2.1-e0b8810-12), Date: Jul 2, 2025]
+
+`Onboarding New User`
+
+Login: catpeter03 (generic user)
+- Registration process
+  - Address creation
+  - CRID creation
+  - Payment Account creation
+- Navigate to "SHIP Now"
+
 
  
 ---
